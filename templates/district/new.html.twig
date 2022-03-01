@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Stwórz nową dzielnicę{% endblock %}
+
+{% block body %}
+    <h1>Nowa dzielnica</h1>
+
+    {{ include('district/_form.html.twig') }}
+
+    <a href="{{ path('app_district_homepage') }}">Powrót</a>
+{% endblock %}

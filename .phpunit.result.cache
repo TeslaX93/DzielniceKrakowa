@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\Controller\\DistanceControllerTest::testSomething":5},"times":{"App\\Tests\\Controller\\DistanceControllerTest::testSomething":1.455,"App\\Tests\\Service\\WebpageScrapperTest::testSomething":0.002}}

@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edytuj dzielnicę{% endblock %}
+
+{% block body %}
+    <h1>Edytuj dzielnicę</h1>
+
+    {{ include('district/_form.html.twig', {'button_label': 'Aktualizuj'}) }}
+
+    <a href="{{ path('app_district_homepage') }}">Powrót</a>
+
+{% endblock %}
